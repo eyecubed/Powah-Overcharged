@@ -163,7 +163,7 @@
   "info.powah.fuel.consumption": "Consumo de combustible",
   "info.powah.generation.factor": "Coeficiente de generación",
   "info.powah.gen.mode": "Modo automático",
-  "info.powah.gen.mode.desc": "El Reactor mse detendrá cuando está lleno y se iniciará \ncuando tiene menos de 70% de energía.",
+  "info.powah.gen.mode.desc": "El Reactor se detendrá cuando está lleno y se iniciará \ncuando tiene menos de 70% de energía.",
   "gui.powah.jei.category.magmatic": "Fluidos magmáticos",
   "gui.powah.jei.category.heat.sources": "Fuentes de calor",
   "gui.powah.jei.category.coolant": "Refrigerantes",
