@@ -20,44 +20,44 @@
       "text": "\"Eat Duracell\" -SUSY Discord"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/ender_gate_starter",
-      "recipe2": "powah:crafting/ender_gate_basic"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/ender_gate/ender_gate_starter",
+      "recipe2": "powah:crafting/ender_gate/ender_gate_basic"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/ender_gate_hardened",
-      "recipe2": "powah:crafting/ender_gate_blazing"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/ender_gate/ender_gate_hardened",
+      "recipe2": "powah:crafting/ender_gate/ender_gate_blazing"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/ender_gate_niotic",
-      "recipe2": "powah:crafting/ender_gate_spirited"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/ender_gate/ender_gate_niotic",
+      "recipe2": "powah:crafting/ender_gate/ender_gate_spirited"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/ender_gate_nitro",
-      "recipe2": "powah:crafting/ender_gate_overcharged"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/ender_gate/ender_gate_nitro",
+      "recipe2": "powah:crafting/ender_gate/ender_gate_overcharged"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/ender_cell_starter",
-      "recipe2": "powah:crafting/ender_cell_basic"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/ender_cell/ender_cell_starter",
+      "recipe2": "powah:crafting/ender_cell/ender_cell_basic"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/ender_cell_hardened",
-      "recipe2": "powah:crafting/ender_cell_blazing"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/ender_cell/ender_cell_hardened",
+      "recipe2": "powah:crafting/ender_cell/ender_cell_blazing"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/ender_cell_niotic",
-      "recipe2": "powah:crafting/ender_cell_spirited"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/ender_cell/ender_cell_niotic",
+      "recipe2": "powah:crafting/ender_cell/ender_cell_spirited"
     },
     {
-      "type": "crafting",
+      "type": "patchouli:crafting",
       "recipe": "powah:crafting/ender_cell_nitro",
-      "recipe2": "powah:crafting/ender_cell_overcharged"
+      "recipe2": "powah:crafting/ender_cell/ender_cell_overcharged"
     }
   ]
 }

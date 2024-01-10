@@ -12,22 +12,22 @@
       "text": "The Furnator is a power source that uses furnace fuels."
     },
     {
-      "type": "crafting",
+      "type": "patchouli:crafting",
       "recipe": "powah:crafting/furnator_starter",
       "recipe2": "powah:crafting/furnator_basic"
     },
     {
-      "type": "crafting",
+      "type": "patchouli:crafting",
       "recipe": "powah:crafting/furnator_hardened",
       "recipe2": "powah:crafting/furnator_blazing"
     },
     {
-      "type": "crafting",
+      "type": "patchouli:crafting",
       "recipe": "powah:crafting/furnator_niotic",
       "recipe2": "powah:crafting/furnator_spirited"
     },
     {
-      "type": "crafting",
+      "type": "patchouli:crafting",
       "recipe": "powah:crafting/furnator_nitro",
       "recipe2": "powah:crafting/furnator_overcharged"
     }

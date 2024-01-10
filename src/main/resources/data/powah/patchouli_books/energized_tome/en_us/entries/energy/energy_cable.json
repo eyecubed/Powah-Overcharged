@@ -12,24 +12,24 @@
       "text": "Energy cables transport power non-wirelessly."
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/cable_starter",
-      "recipe2": "powah:crafting/cable_basic"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/cable/cable_starter",
+      "recipe2": "powah:crafting/cable/cable_basic"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/cable_hardened",
-      "recipe2": "powah:crafting/cable_blazing"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/cable/cable_hardened",
+      "recipe2": "powah:crafting/cable/cable_blazing"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/cable_niotic",
-      "recipe2": "powah:crafting/cable_spirited"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/cable/cable_niotic",
+      "recipe2": "powah:crafting/cable/cable_spirited"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/cable_nitro",
-      "recipe2": "powah:crafting/cable_overcharged"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/cable/cable_nitro",
+      "recipe2": "powah:crafting/cable/cable_overcharged"
     }
   ]
 }

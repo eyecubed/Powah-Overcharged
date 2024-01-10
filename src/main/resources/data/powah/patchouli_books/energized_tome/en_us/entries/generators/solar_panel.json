@@ -12,24 +12,24 @@
       "text": "The Solar Panel is a clean way to get power."
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/solar_panel_starter",
-      "recipe2": "powah:crafting/solar_panel_basic"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/solar_panel/solar_panel_starter",
+      "recipe2": "powah:crafting/solar_panel/solar_panel_basic"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/solar_panel_hardened",
-      "recipe2": "powah:crafting/solar_panel_blazing"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/solar_panel/solar_panel_hardened",
+      "recipe2": "powah:crafting/solar_panel/solar_panel_blazing"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/solar_panel_niotic",
-      "recipe2": "powah:crafting/solar_panel_spirited"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/solar_panel/solar_panel_niotic",
+      "recipe2": "powah:crafting/solar_panel/solar_panel_spirited"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/solar_panel_nitro",
-      "recipe2": "powah:crafting/solar_panel_overcharged"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/solar_panel/solar_panel_nitro",
+      "recipe2": "powah:crafting/solar_panel/solar_panel_overcharged"
     }
   ]
 }
