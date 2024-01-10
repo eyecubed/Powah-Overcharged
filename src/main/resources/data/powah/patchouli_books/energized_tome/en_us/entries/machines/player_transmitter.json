@@ -1,0 +1,38 @@
+{
+  "name": "Player Transmitter",
+  "icon": "powah:player_transmitter_nitro",
+  "category": "powah:machines",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Energy Hopper",
+      "text": "Player transmitters give power to items in a player's inventory. The transmitter requires a binding card, either a dimensional (created when using a binding card on an enderman or endermite) or a regular."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "powah:textures/patchouli/ptransmitter_book.png"
+      ]
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/player_transmitter/player_transmitter_starter",
+      "recipe2": "powah:crafting/player_transmitter/player_transmitter_basic"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/player_transmitter/player_transmitter_hardened",
+      "recipe2": "powah:crafting/player_transmitter/player_transmitter_blazing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/player_transmitter/player_transmitter_niotic",
+      "recipe2": "powah:crafting/player_transmitter/player_transmitter_spirited"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/player_transmitter/player_transmitter_nitro",
+      "recipe2": "powah:crafting/player_transmitter/player_transmitter_overcharged"
+    }
+  ]
+}
