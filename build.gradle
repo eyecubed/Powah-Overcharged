@@ -105,7 +105,7 @@ dependencies {
     runtimeOnly fg.deobf("mezz.jei:jei-1.16.5:7.7.1.153")
     implementation fg.deobf("top.theillusivec4.curios:curios-forge:1.16.5-4.0.5.3")
     implementation fg.deobf("curse.maven:lollipop-347954:3232534") {
-        jarJar.ranged(it, "[2.0,3.0)")
+        jarJar.ranged(it, "[2.0,4.0)")
     }
     compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.16.4-53.3:api")
     runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.16.4-53.3")
