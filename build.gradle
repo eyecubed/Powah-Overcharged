@@ -125,7 +125,7 @@ mixin {
 jarJar {
     fromRuntimeConfiguration()
     dependencies {
-        include(dependency("team.chisel.ctm:CTM"))
+        include(dependency("curse.maven:lollipop-347954:3232534"))
     }
 }
 reobf {
