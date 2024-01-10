@@ -38,9 +38,7 @@ public class Itms {
     public static final Item OVERCHARGED_CORE = REG.register("overcharged_core", new ItemBase(new Item.Properties().group(ItemGroups.MAIN)));
     public static final Item ENDER_CORE = REG.register("ender_core", new ItemBase(new Item.Properties().group(ItemGroups.MAIN)));
     public static final Item CHARGED_SNOWBALL = REG.register("charged_snowball", new ChargedSnowballItem(new Item.Properties().group(ItemGroups.MAIN).maxStackSize(16)));
-    public static final Item URANINITE_RAW_POOR = REG.register("uraninite_raw_poor", new UraniniteItem(new Item.Properties().group(ItemGroups.MAIN)));
     public static final Item URANINITE_RAW = REG.register("uraninite_raw", new UraniniteItem(new Item.Properties().group(ItemGroups.MAIN)));
-    public static final Item URANINITE_RAW_DENSE = REG.register("uraninite_raw_dense", new UraniniteItem(new Item.Properties().group(ItemGroups.MAIN)));
     public static final Item URANINITE = REG.register("uraninite", new UraniniteItem(new Item.Properties().group(ItemGroups.MAIN)));
     public static final Item ENERGIZED_BOOTS_STARTER = REG.register("energized_boots_starter", new ArmorItem(ModArmorMaterial.ARMOR_STARTER, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroups.MAIN)));
     public static final Item ENERGIZED_LEGGINGS_STARTER = REG.register("energized_leggings_starter", new ArmorItem(ModArmorMaterial.ARMOR_STARTER, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroups.MAIN)));
