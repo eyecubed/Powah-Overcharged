@@ -105,7 +105,7 @@ dependencies {
     runtimeOnly fg.deobf("mezz.jei:jei-1.16.5:7.7.1.153")
     implementation fg.deobf("top.theillusivec4.curios:curios-forge:1.16.5-4.0.5.3")
     implementation fg.deobf("curse.maven:lollipop-347954:3232534") {
-        jarJar.ranged(it, "[2.0,4.0)")
+        jarJar.ranged(it, "[3.2.9,)")
     }
     compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.16.4-53.3:api")
     runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.16.4-53.3")
@@ -120,22 +120,6 @@ tasks.withType(Copy).all { duplicatesStrategy 'exclude' }
 
 mixin {
     add sourceSets.main, "powah.mixin-refmap.json"
-}
-
-jarJar {
-    fromRuntimeConfiguration()
-    dependencies {
-        include(dependency("curse.maven:lollipop-347954:3232534"))
-    }
-}
-reobf {
-    jarJar {}
-}
-
-afterEvaluate {
-    tasks.jar.finalizedBy tasks.reobfJar
-    tasks.jarJar.finalizedBy tasks.reobfJarJar
-    tasks.reobfJarJar.enabled = true
 }
 
 jar {
@@ -157,3 +141,20 @@ jar {
 
     finalizedBy 'reobfJar'
 }
+
+jarJar {
+    fromRuntimeConfiguration()
+    dependencies {
+        include(dependency("curse.maven:lollipop-347954"))
+    }
+}
+reobf {
+    jarJar {}
+}
+
+afterEvaluate {
+    tasks.jar.finalizedBy tasks.reobfJar
+    tasks.jarJar.finalizedBy tasks.reobfJarJar
+    tasks.reobfJarJar.enabled = true
+}
+tasks.build.dependsOn tasks.jarJar
