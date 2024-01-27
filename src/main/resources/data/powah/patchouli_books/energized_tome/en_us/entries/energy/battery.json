@@ -12,24 +12,24 @@
       "text": "Batteries store power portably. As a Curio, it charges items."
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/battery_starter",
-      "recipe2": "powah:crafting/battery_basic"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/battery/battery_starter",
+      "recipe2": "powah:crafting/battery/battery_basic"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/battery_hardened",
-      "recipe2": "powah:crafting/battery_blazing"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/battery/battery_hardened",
+      "recipe2": "powah:crafting/battery/battery_blazing"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/battery_niotic",
-      "recipe2": "powah:crafting/battery_spirited"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/battery/battery_niotic",
+      "recipe2": "powah:crafting/battery/battery_spirited"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/battery_nitro",
-      "recipe2": "powah:crafting/battery_overcharged"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/battery/battery_nitro",
+      "recipe2": "powah:crafting/battery/battery_overcharged"
     }
   ]
 }

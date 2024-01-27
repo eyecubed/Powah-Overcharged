@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+	"ggg",
+	"cfc",
+	"ggg"
+  ],
+  "key": {
+	"c": {
+	  "item": "powah:capacitor_niotic"
+	},
+	"g": {
+	  "item": "powah:crystal_niotic"
+	},
+	"f": {
+	  "item": "powah:furnator_blazing"
+	}
+  },
+  "result": {
+	"item": "powah:furnator_niotic"
+  }
+}

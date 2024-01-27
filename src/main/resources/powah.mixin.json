@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "package": "owmii.powah.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "client": [
+        "AbstractBlockMixin",
+        "VarItemMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    },
+    "refmap": "powah.mixin-refmap.json",
+    "minVersion": "0.8"
+}

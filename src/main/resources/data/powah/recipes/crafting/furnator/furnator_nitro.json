@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+	"ggg",
+	"cfc",
+	"ggg"
+  ],
+  "key": {
+	"c": {
+	  "item": "powah:capacitor_nitro"
+	},
+	"g": {
+	  "item": "powah:crystal_nitro"
+	},
+	"f": {
+	  "item": "powah:furnator_spirited"
+	}
+  },
+  "result": {
+	"item": "powah:furnator_nitro"
+  }
+}

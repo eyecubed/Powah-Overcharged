@@ -1,0 +1,38 @@
+{
+  "name": "Energy Discharger",
+  "icon": "powah:energy_discharger_nitro",
+  "category": "powah:machines",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Energy Discharger",
+      "text": "The energy discharger takes energy out of storages, such as batteries, cells, or even machines if they have excess power."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "powah:textures/patchouli/edischarger_book.png"
+      ]
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/energy_discharger/energy_discharger_starter",
+      "recipe2": "powah:crafting/energy_discharger/energy_discharger_basic"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/energy_discharger/energy_discharger_hardened",
+      "recipe2": "powah:crafting/energy_discharger/energy_discharger_blazing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/energy_discharger/energy_discharger_niotic",
+      "recipe2": "powah:crafting/energy_discharger/energy_discharger_spirited"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/energy_discharger/energy_discharger_nitro",
+      "recipe2": "powah:crafting/energy_discharger/energy_discharger_overcharged"
+    }
+  ]
+}
