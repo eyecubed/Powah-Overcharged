@@ -76,7 +76,6 @@ sourceSets.main.resources { srcDirs = ["src/main/resources", "src/generated/reso
 jarJar.enable()
 
 repositories {
-    maven { url = "https://maven.blamejared.com/" } //Jei
     maven { url = "https://maven.theillusivec4.top" } //Curios
     maven {
         name "cursemaven"
