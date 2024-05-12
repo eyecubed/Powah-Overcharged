@@ -1,6 +1,7 @@
 buildscript {
     repositories {
         maven { url = 'https://files.minecraftforge.net/maven' }
+        maven { url = 'https://repo.spongepowered.org/maven' }
         jcenter()
         mavenCentral()
         maven { url = 'https://repo.spongepowered.org/repository/maven-public/' }
@@ -30,6 +31,8 @@ minecraft {
 
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
+
+            arg "-mixin.config=powah.mixin.json"
 
             mods {
                 powah {
@@ -70,8 +73,9 @@ minecraft {
 
 sourceSets.main.resources { srcDirs = ["src/main/resources", "src/generated/resources"] }
 
+jarJar.enable()
+
 repositories {
-    maven { url = "https://dvs1.progwml6.com/files/maven" } //JEI
     maven { url = "https://maven.theillusivec4.top" } //Curios
     maven {
         name "cursemaven"
@@ -99,21 +103,31 @@ dependencies {
     compileOnly fg.deobf("mezz.jei:jei-1.16.5:7.7.1.153:api")
     runtimeOnly fg.deobf("mezz.jei:jei-1.16.5:7.7.1.153")
     implementation fg.deobf("top.theillusivec4.curios:curios-forge:1.16.5-4.0.5.3")
-    implementation fg.deobf("curse.maven:lollipop-347954:3232534")
+    implementation fg.deobf("curse.maven:lollipop-347954:3232534") {
+        jarJar.ranged(it, "[3.2.9,)")
+    }
     compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.16.4-53.3:api")
     runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.16.4-53.3")
     implementation fg.deobf("me.shedaniel:architectury-forge:1.22.32")
     implementation fg.deobf("dev.latvian.mods:kubejs-forge:1605.3.19-build.229")
     implementation fg.deobf("dev.latvian.mods:rhino-forge:1605.1.5-build.75")
-    
+
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }
 
 tasks.withType(Copy).all { duplicatesStrategy 'exclude' }
+
+mixin {
+    add sourceSets.main, "powah.mixin-refmap.json"
+}
 
 jar {
     manifest {
         attributes([
                 'FMLAT'                   : 'accesstransformer.cfg',
+                "TweakClass"              : "org.spongepowered.asm.launch.MixinTweaker",
+                "TweakOrder"              : 0,
+                "MixinConfigs"            : "powah.mixin.json",
                 "Specification-Title"     : mod_name,
                 "Specification-Vendor"    : "owmii",
                 "Specification-Version"   : mod_version,
@@ -126,3 +140,20 @@ jar {
 
     finalizedBy 'reobfJar'
 }
+
+jarJar {
+    fromRuntimeConfiguration()
+    dependencies {
+        include(dependency("curse.maven:lollipop-347954"))
+    }
+}
+reobf {
+    jarJar {}
+}
+
+afterEvaluate {
+    tasks.jar.finalizedBy tasks.reobfJar
+    tasks.jarJar.finalizedBy tasks.reobfJarJar
+    tasks.reobfJarJar.enabled = true
+}
+tasks.build.dependsOn tasks.jarJar

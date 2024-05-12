@@ -12,24 +12,24 @@
       "text": "Energy cells store power."
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/energy_cell_starter",
-      "recipe2": "powah:crafting/energy_cell_basic"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/energy_cell/energy_cell_starter",
+      "recipe2": "powah:crafting/energy_cell/energy_cell_basic"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/energy_cell_hardened",
-      "recipe2": "powah:crafting/energy_cell_blazing"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/energy_cell/energy_cell_hardened",
+      "recipe2": "powah:crafting/energy_cell/energy_cell_blazing"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/energy_cell_niotic",
-      "recipe2": "powah:crafting/energy_cell_spirited"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/energy_cell/energy_cell_niotic",
+      "recipe2": "powah:crafting/energy_cell/energy_cell_spirited"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/energy_cell_nitro",
-      "recipe2": "powah:crafting/energy_cell_overcharged"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/energy_cell/energy_cell_nitro",
+      "recipe2": "powah:crafting/energy_cell/energy_cell_overcharged"
     }
   ]
 }

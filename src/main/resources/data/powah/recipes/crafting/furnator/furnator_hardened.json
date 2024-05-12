@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+	"ggg",
+	"cfc",
+	"ggg"
+  ],
+  "key": {
+	"c": {
+	  "item": "powah:capacitor_hardened"
+	},
+	"g": {
+	  "item": "powah:steel_energized"
+	},
+	"f": {
+	  "item": "powah:furnator_basic"
+	}
+  },
+  "result": {
+	"item": "powah:furnator_hardened"
+  }
+}

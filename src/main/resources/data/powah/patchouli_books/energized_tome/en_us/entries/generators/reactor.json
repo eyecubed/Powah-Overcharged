@@ -16,24 +16,24 @@
       "text": "To modpackers: Uraninite and redstone can be replaced with tags :)"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/reactor_starter",
-      "recipe2": "powah:crafting/reactor_basic"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/reactor/reactor_starter",
+      "recipe2": "powah:crafting/reactor/reactor_basic"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/reactor_hardened",
-      "recipe2": "powah:crafting/reactor_blazing"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/reactor/reactor_hardened",
+      "recipe2": "powah:crafting/reactor/reactor_blazing"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/reactor_niotic",
-      "recipe2": "powah:crafting/reactor_spirited"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/reactor/reactor_niotic",
+      "recipe2": "powah:crafting/reactor/reactor_spirited"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/reactor_nitro",
-      "recipe2": "powah:crafting/reactor_overcharged"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/reactor/reactor_nitro",
+      "recipe2": "powah:crafting/reactor/reactor_overcharged"
     }
   ]
 }

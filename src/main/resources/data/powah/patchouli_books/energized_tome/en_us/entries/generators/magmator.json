@@ -12,24 +12,24 @@
       "text": "The Magmator uses lava to produce energy."
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/magmator_starter",
-      "recipe2": "powah:crafting/magmator_basic"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/magmator/magmator_starter",
+      "recipe2": "powah:crafting/magmator/magmator_basic"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/magmator_hardened",
-      "recipe2": "powah:crafting/magmator_blazing"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/magmator/magmator_hardened",
+      "recipe2": "powah:crafting/magmator/magmator_blazing"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/magmator_niotic",
-      "recipe2": "powah:crafting/magmator_spirited"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/magmator/magmator_niotic",
+      "recipe2": "powah:crafting/magmator/magmator_spirited"
     },
     {
-      "type": "crafting",
-      "recipe": "powah:crafting/magmator_nitro",
-      "recipe2": "powah:crafting/magmator_overcharged"
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/magmator/magmator_nitro",
+      "recipe2": "powah:crafting/magmator/magmator_overcharged"
     }
   ]
 }

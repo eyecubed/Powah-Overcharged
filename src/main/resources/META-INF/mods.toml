@@ -34,13 +34,13 @@ description="A fork of the mod Powah to add more customizability for Modern Modp
     versionRange="[1.16.5,1.17)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.powah]]
-    modId="lollipop"
-    mandatory=true
+# [[dependencies.powah]]
+#     modId="lollipop"
+#     mandatory=true
 
-    versionRange="[3.2.9,)"
-    ordering="NONE"
-    side="BOTH"
+#     versionRange="[3.2.9,)"
+#     ordering="NONE"
+#     side="BOTH"
 [[dependencies.powah]]
     modId="jei"
     mandatory=false

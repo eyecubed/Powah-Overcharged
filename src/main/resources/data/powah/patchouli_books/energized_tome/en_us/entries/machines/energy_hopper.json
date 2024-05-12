@@ -1,0 +1,38 @@
+{
+  "name": "Energy Hopper",
+  "icon": "powah:energy_hopper_nitro",
+  "category": "powah:machines",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Energy Hopper",
+      "text": "Energy hoppers take power and dispense it to items in an inventory, such as a chest. For example, you have an energy hopper connected to a chest, and a battery would get charged after putting it in the chest."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "powah:textures/patchouli/ehopper_book.png"
+      ]
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/energy_hopper/energy_hopper_starter",
+      "recipe2": "powah:crafting/energy_hopper/energy_hopper_basic"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/energy_hopper/energy_hopper_hardened",
+      "recipe2": "powah:crafting/energy_hopper/energy_hopper_blazing"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/energy_hopper/energy_hopper_niotic",
+      "recipe2": "powah:crafting/energy_hopper/energy_hopper_spirited"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "powah:crafting/energy_hopper/energy_hopper_nitro",
+      "recipe2": "powah:crafting/energy_hopper/energy_hopper_overcharged"
+    }
+  ]
+}
